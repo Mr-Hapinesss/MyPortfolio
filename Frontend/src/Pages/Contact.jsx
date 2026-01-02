@@ -42,9 +42,9 @@ function Contact() {
   return (
     <>
         <div className='flex justify-center' >
-            <form onSubmit={handleSubmit} className='shadow-sm border border-gray-300 rounded-lg bg-gray-100 w-140 h-115 p-4' >
+            <form onSubmit={handleSubmit} className='shadow-sm m-4 border border-gray-300 rounded-lg bg-gray-100 w-140 h-115 p-4' >
                 <div>
-                    <h1 className='font-bold text-lg text-center ' >Contact Me</h1>
+                    <h1 className='font-bold text-lg text-center text-blue-200 ' >Contact Me</h1>
                 </div>
                 <div>
                     <input type="text" 

@@ -6,10 +6,10 @@ function Layout() {
     return (
         <>
             <Header />
-            <main className="max-w-7xl mx-auto px-4 py-6">
+            <main className=" bg-blue-100">
                 <Outlet />
             </main>
-            <div className="max-w-7xl mx-auto px-4 py-6">
+            <div className="">
                 <Footer />
             </div>
         </>
