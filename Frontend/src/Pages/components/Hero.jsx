@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import Pic from "../assets/profile.jpg";
 
 function Hero() {
   return (
@@ -31,7 +32,9 @@ function Hero() {
             </div>
           </div>
 
-
+          <div className="bg-gray-50 rounded-3xl p-8 border border-gray-100 shadow-xl">
+            <img className="rounded-lg" src={Pic} alt="" />
+          </div>
         </div>
       </div>
     </section>
